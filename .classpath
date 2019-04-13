@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
-	<classpathentry kind="lib" path="/Users/nrobinson/eclipse-workspace/robot-arm-java/lib/Jamepad.jar"/>
+	<classpathentry kind="lib" path="/home/jonathan/git/robot-arm-java/lib/Jamepad.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/jonathan/Downloads/jdk1.8.0_201/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="/home/jonathan/Downloads/jdk1.8.0_201/jre/lib/ext/jfxrt.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
